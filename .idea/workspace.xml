@@ -1,13 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="" />
+    <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/src/views/HomeView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/src/views/LoginView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-04/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/views/AdminView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/views/LoginView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/views/admin/UserAddNewView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/src/views/admin/UserListView.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue-project-05/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-project-preset/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project-preset/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-project-preset/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project-preset/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-project-preset/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project-preset/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="29Xym6SZtxPwiyetmCNPsjPOPOf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -16,6 +80,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue-project-05/src/views/admin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\vue-project-05\src\views\admin" />
+      <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\vue-project-04\src\views" />
+      <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -28,10 +107,50 @@
       <option name="presentableId" value="Default" />
       <updated>1653273880104</updated>
       <workItem from="1653273882984" duration="49000" />
+      <workItem from="1653274870908" duration="5508000" />
+      <workItem from="1653286559368" duration="20000" />
+      <workItem from="1653286585559" duration="1855000" />
+      <workItem from="1653289997504" duration="8417000" />
+      <workItem from="1653354900500" duration="97000" />
+      <workItem from="1653355028528" duration="8608000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1653275529217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1653275529217" />
+    <state x="776" y="420" key="Gitee.ShareDialog" timestamp="1653277785803">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="420" key="Gitee.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653277785803" />
+    <state x="626" y="215" key="Gitee.UntrackedFilesDialog" timestamp="1653277800832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="626" y="215" key="Gitee.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653277800832" />
+    <state x="616" y="221" key="RollbackChangesDialog" timestamp="1653286944601">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653286944601" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1653275420148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653275420148" />
   </component>
 </project>
