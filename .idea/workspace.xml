@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="spring-mvc:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,68 +24,81 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/src/views/HomeView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/src/views/LoginView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-04/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/router/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/views/AdminView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/views/LoginView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/views/admin/UserAddNewView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/src/views/admin/UserListView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue-project-05/vue.config.js" afterDir="false" />
+    <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="Vue-Cli完结">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-01/src/main/java/cn/tedu/spring/SpringBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-01/src/main/java/cn/tedu/spring/SpringRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02/src/main/java/cn/tedu/spring/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02/src/main/java/cn/tedu/spring/SpringRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-02/src/main/java/cn/tedu/spring/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03/src/main/java/cn/tedu/spring/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03/src/main/java/cn/tedu/spring/SpringRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-03/src/main/java/cn/tedu/spring/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04/spring-04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/SpringRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/SubUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/SpringMvcInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/config/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/config/SpringMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/controller/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/dto/UserRegDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/vo/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/web/JasonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/web/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-project-preset/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project-preset/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-project-preset/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project-preset/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-project-preset/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-project-preset/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="29Xym6SZtxPwiyetmCNPsjPOPOf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue-project-05/src/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../B_phase/WebServer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -88,6 +106,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="play.paths.configuration" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -95,6 +117,159 @@
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\vue-project-04\src\views" />
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTests">
+    <configuration name="SpringRunner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.spring.SpringRunner" />
+      <module name="spring-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRunner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.spring.SpringRunner" />
+      <module name="spring-03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRunner (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.spring.SpringRunner" />
+      <module name="spring-04" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.spring.SpringRunner" />
+      <module name="spring-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.37" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/spring_mvc_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="spring-mvc:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/spring_mvc_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CGB2202-framework" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64052" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="spring-mvc:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SpringRunner" />
+      <item itemvalue="Application.SpringRunner (1)" />
+      <item itemvalue="Application.SpringRunner (2)" />
+      <item itemvalue="Application.SpringRunner (3)" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
+      <item itemvalue="JUnit.MybatisTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTests" />
+        <item itemvalue="Application.SpringRunner (3)" />
+        <item itemvalue="Application.SpringRunner (2)" />
+        <item itemvalue="Application.SpringRunner (1)" />
+        <item itemvalue="Application.SpringRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -112,8 +287,16 @@
       <workItem from="1653286585559" duration="1855000" />
       <workItem from="1653289997504" duration="8417000" />
       <workItem from="1653354900500" duration="97000" />
-      <workItem from="1653355028528" duration="8608000" />
+      <workItem from="1653355028528" duration="90046000" />
     </task>
+    <task id="LOCAL-00001" summary="Vue-Cli完结">
+      <created>1653375257047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653375257047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,11 +314,31 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Vue-Cli完结" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vue-Cli完结" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1653275529217">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1653375479447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1653275529217" />
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1653375479447" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653545037260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653545037260" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1653639264052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1653639264052" />
+    <state x="711" y="344" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1653467795011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="344" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653467795011" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1653531973737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1653531973737" />
     <state x="776" y="420" key="Gitee.ShareDialog" timestamp="1653277785803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -144,13 +347,121 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="215" key="Gitee.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653277800832" />
+    <state width="1293" height="384" key="GridCell.Tab.0.bottom" timestamp="1653641943242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1293" height="384" key="GridCell.Tab.0.center" timestamp="1653641943242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1293" height="384" key="GridCell.Tab.0.left" timestamp="1653641943242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1293" height="384" key="GridCell.Tab.0.right" timestamp="1653641943242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1293" height="384" key="GridCell.Tab.1.bottom" timestamp="1653641943242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1293" height="384" key="GridCell.Tab.1.center" timestamp="1653641943242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1293" height="384" key="GridCell.Tab.1.left" timestamp="1653641943242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1293" height="384" key="GridCell.Tab.1.right" timestamp="1653641943242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1293" height="384" key="GridCell.Tab.2.bottom" timestamp="1653641943243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943243" />
+    <state width="1293" height="384" key="GridCell.Tab.2.center" timestamp="1653641943243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943243" />
+    <state width="1293" height="384" key="GridCell.Tab.2.left" timestamp="1653641943242">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1293" height="384" key="GridCell.Tab.2.right" timestamp="1653641943243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="384" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943243" />
+    <state width="1293" height="313" key="GridCell.Tab.3.bottom" timestamp="1653527658499">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="313" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653527658499" />
+    <state width="1293" height="313" key="GridCell.Tab.3.center" timestamp="1653527658498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="313" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653527658498" />
+    <state width="1293" height="313" key="GridCell.Tab.3.left" timestamp="1653527658498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="313" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653527658498" />
+    <state width="1293" height="313" key="GridCell.Tab.3.right" timestamp="1653527658498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="313" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653527658498" />
+    <state width="1293" height="313" key="GridCell.Tab.4.bottom" timestamp="1653527655382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="313" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653527655382" />
+    <state width="1293" height="313" key="GridCell.Tab.4.center" timestamp="1653527655382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="313" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653527655382" />
+    <state width="1293" height="313" key="GridCell.Tab.4.left" timestamp="1653527655381">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="313" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653527655381" />
+    <state width="1293" height="313" key="GridCell.Tab.4.right" timestamp="1653527655382">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="313" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653527655382" />
     <state x="616" y="221" key="RollbackChangesDialog" timestamp="1653286944601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653286944601" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1653275420148">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1653477420334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653275420148" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1653477420334" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1653375258681">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1653375258681" />
+    <state x="369" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1653460881860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="369" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1653460881860" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653552616435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1653552616435" />
+    <state width="478" height="350" key="documentation.popup.size" timestamp="1653532819977">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="478" height="350" key="documentation.popup.size/0.0.1920.1040@0.0.1920.1040" timestamp="1653532819977" />
+    <state x="662" y="223" width="596" height="594" key="find.popup" timestamp="1653529117712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653529117712" />
+    <state x="334" y="180" key="new project wizard" timestamp="1653646765549">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1653646765549" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1653639239046">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653639239046" />
   </component>
 </project>

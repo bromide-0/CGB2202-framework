@@ -6,7 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CGB2202-framework" />
+        <module name="spring-mybatis" />
+        <module name="spring-04" />
+        <module name="spring-mvc" />
+        <module name="spring-03" />
+        <module name="spring-02" />
+        <module name="spring-01" />
       </profile>
     </annotationProcessing>
   </component>
