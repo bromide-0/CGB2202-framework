@@ -25,44 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="Vue-Cli完结">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-01/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-01/src/main/java/cn/tedu/spring/SpringBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-01/src/main/java/cn/tedu/spring/SpringRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-02/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-02/src/main/java/cn/tedu/spring/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-02/src/main/java/cn/tedu/spring/SpringRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-02/src/main/java/cn/tedu/spring/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03/src/main/java/cn/tedu/spring/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03/src/main/java/cn/tedu/spring/SpringRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-03/src/main/java/cn/tedu/spring/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04/spring-04.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/SpringRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/SubUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-04/src/main/java/cn/tedu/spring/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/SpringMvcInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/config/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/config/SpringMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/controller/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/dto/UserRegDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/vo/UserVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/web/JasonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc/src/main/java/cn/tedu/springmvc/web/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/main/resources/datasource.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -93,6 +61,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -118,20 +87,7 @@
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTests">
-    <configuration name="SpringRunner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.spring.SpringRunner" />
-      <module name="spring-02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MybatisTests.testConnection">
     <configuration name="SpringRunner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.tedu.spring.SpringRunner" />
       <module name="spring-03" />
@@ -158,24 +114,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.spring.SpringRunner" />
-      <module name="spring-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MybatisTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-mybatis" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MybatisTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTests.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTests" />
+      <option name="METHOD_NAME" value="testConnection" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -254,20 +217,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpringRunner" />
-      <item itemvalue="Application.SpringRunner (1)" />
       <item itemvalue="Application.SpringRunner (2)" />
       <item itemvalue="Application.SpringRunner (3)" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
       <item itemvalue="JUnit.MybatisTests" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
+      <item itemvalue="JUnit.MybatisTests.contextLoads" />
+      <item itemvalue="JUnit.MybatisTests.testConnection" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTests.testConnection" />
         <item itemvalue="JUnit.MybatisTests" />
+        <item itemvalue="JUnit.MybatisTests.contextLoads" />
         <item itemvalue="Application.SpringRunner (3)" />
         <item itemvalue="Application.SpringRunner (2)" />
-        <item itemvalue="Application.SpringRunner (1)" />
-        <item itemvalue="Application.SpringRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -288,6 +251,7 @@
       <workItem from="1653289997504" duration="8417000" />
       <workItem from="1653354900500" duration="97000" />
       <workItem from="1653355028528" duration="90046000" />
+      <workItem from="1653712268287" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="Vue-Cli完结">
       <created>1653375257047</created>
@@ -319,14 +283,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Vue-Cli完结" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1653375479447">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1653712575849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1653375479447" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653545037260">
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1653712575849" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653713273729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653545037260" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653713273729" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1653639264052">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -347,22 +311,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="215" key="Gitee.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653277800832" />
-    <state width="1293" height="384" key="GridCell.Tab.0.bottom" timestamp="1653641943242">
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom" timestamp="1653713422489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
-    <state width="1293" height="384" key="GridCell.Tab.0.center" timestamp="1653641943242">
+    <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653713422489" />
+    <state width="1877" height="312" key="GridCell.Tab.0.center" timestamp="1653713422489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="384" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
-    <state width="1293" height="384" key="GridCell.Tab.0.left" timestamp="1653641943242">
+    <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653713422489" />
+    <state width="1877" height="312" key="GridCell.Tab.0.left" timestamp="1653713422489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="384" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
-    <state width="1293" height="384" key="GridCell.Tab.0.right" timestamp="1653641943242">
+    <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653713422489" />
+    <state width="1877" height="312" key="GridCell.Tab.0.right" timestamp="1653713422489">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="384" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653713422489" />
     <state width="1293" height="384" key="GridCell.Tab.1.bottom" timestamp="1653641943242">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -427,6 +391,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="313" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653527655382" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1653712515151">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1653712515151" />
     <state x="616" y="221" key="RollbackChangesDialog" timestamp="1653286944601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
