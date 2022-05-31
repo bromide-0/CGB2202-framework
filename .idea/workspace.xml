@@ -24,11 +24,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="Vue-Cli完结">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/SpringConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/main/resources/datasource.properties" afterDir="false" />
+    <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/resources/datasource.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/resources/datasource.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../B_phase/WebServer" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-mybatis/src/main/resources/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -78,66 +84,62 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="play.paths.configuration" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\spring-mybatis\src\main\resources\mapper" />
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\vue-project-05\src\views\admin" />
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\vue-project-04\src\views" />
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTests.testConnection">
-    <configuration name="SpringRunner (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.spring.SpringRunner" />
-      <module name="spring-03" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringRunner (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.spring.SpringRunner" />
-      <module name="spring-04" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.spring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MybatisTests.testCount">
+    <configuration name="MybatisTests.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-mybatis" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MybatisTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybatisTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTests.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTests.testCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-mybatis" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MybatisTests" />
-      <option name="METHOD_NAME" value="testConnection" />
+      <option name="METHOD_NAME" value="testCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTests.testDeleteById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTests" />
+      <option name="METHOD_NAME" value="testDeleteById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTests" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTests.testUpdatePasswordById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-mybatis" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MybatisTests" />
+      <option name="METHOD_NAME" value="testUpdatePasswordById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -217,20 +219,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpringRunner (2)" />
-      <item itemvalue="Application.SpringRunner (3)" />
-      <item itemvalue="JUnit.MybatisTests" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
-      <item itemvalue="JUnit.MybatisTests.contextLoads" />
-      <item itemvalue="JUnit.MybatisTests.testConnection" />
+      <item itemvalue="JUnit.MybatisTests.testInsert" />
+      <item itemvalue="JUnit.MybatisTests.testDeleteById" />
+      <item itemvalue="JUnit.MybatisTests.testUpdatePasswordById" />
+      <item itemvalue="JUnit.MybatisTests.main" />
+      <item itemvalue="JUnit.MybatisTests.testCount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTests.testConnection" />
-        <item itemvalue="JUnit.MybatisTests" />
-        <item itemvalue="JUnit.MybatisTests.contextLoads" />
-        <item itemvalue="Application.SpringRunner (3)" />
-        <item itemvalue="Application.SpringRunner (2)" />
+        <item itemvalue="JUnit.MybatisTests.testCount" />
+        <item itemvalue="JUnit.MybatisTests.main" />
+        <item itemvalue="JUnit.MybatisTests.testUpdatePasswordById" />
+        <item itemvalue="JUnit.MybatisTests.testInsert" />
+        <item itemvalue="JUnit.MybatisTests.testDeleteById" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +253,7 @@
       <workItem from="1653289997504" duration="8417000" />
       <workItem from="1653354900500" duration="97000" />
       <workItem from="1653355028528" duration="90046000" />
-      <workItem from="1653712268287" duration="1133000" />
+      <workItem from="1653712268287" duration="26883000" />
     </task>
     <task id="LOCAL-00001" summary="Vue-Cli完结">
       <created>1653375257047</created>
@@ -260,11 +262,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653375257047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <created>1653713480067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653713480067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -280,21 +299,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Vue-Cli完结" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vue-Cli完结" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1653712575849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1653712575849" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653713273729">
+    <state x="337" y="361" key="#SQL_Dialects" timestamp="1653896407752">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653713273729" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1653639264052">
+    <state x="337" y="361" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1653896407752" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653881128547">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1653639264052" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653881128547" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1653894989248">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1653894989248" />
     <state x="711" y="344" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1653467795011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -311,38 +335,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="215" key="Gitee.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653277800832" />
-    <state width="1877" height="312" key="GridCell.Tab.0.bottom" timestamp="1653713422489">
+    <state width="1877" height="358" key="GridCell.Tab.0.bottom" timestamp="1653904343603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="312" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653713422489" />
-    <state width="1877" height="312" key="GridCell.Tab.0.center" timestamp="1653713422489">
+    <state width="1877" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653904343603" />
+    <state width="1877" height="358" key="GridCell.Tab.0.center" timestamp="1653904343603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="312" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653713422489" />
-    <state width="1877" height="312" key="GridCell.Tab.0.left" timestamp="1653713422489">
+    <state width="1877" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653904343603" />
+    <state width="1877" height="358" key="GridCell.Tab.0.left" timestamp="1653904343602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="312" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653713422489" />
-    <state width="1877" height="312" key="GridCell.Tab.0.right" timestamp="1653713422489">
+    <state width="1877" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653904343602" />
+    <state width="1877" height="358" key="GridCell.Tab.0.right" timestamp="1653904343603">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="312" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653713422489" />
-    <state width="1293" height="384" key="GridCell.Tab.1.bottom" timestamp="1653641943242">
+    <state width="1877" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653904343603" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1653904225193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="384" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
-    <state width="1293" height="384" key="GridCell.Tab.1.center" timestamp="1653641943242">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1653904225193" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1653904225193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="384" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
-    <state width="1293" height="384" key="GridCell.Tab.1.left" timestamp="1653641943242">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1653904225193" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1653904225193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="384" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
-    <state width="1293" height="384" key="GridCell.Tab.1.right" timestamp="1653641943242">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1653904225193" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1653904225193">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="384" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653641943242" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653904225193" />
     <state width="1293" height="384" key="GridCell.Tab.2.bottom" timestamp="1653641943243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -391,26 +415,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="313" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653527655382" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1653712515151">
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1653874828243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1653712515151" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1653874828243" />
     <state x="616" y="221" key="RollbackChangesDialog" timestamp="1653286944601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653286944601" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1653477420334">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1653874398354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1653477420334" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1653375258681">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1653874398354" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1653713481711">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1653375258681" />
-    <state x="369" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1653460881860">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1653713481711" />
+    <state x="369" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1653892458770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="369" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1653460881860" />
+    <state x="369" y="92" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1653892458770" />
     <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1653552616435">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -427,9 +451,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1653646765549" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1653639239046">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1653903465687">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653639239046" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653903465687" />
   </component>
 </project>

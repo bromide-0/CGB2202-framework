@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- 此文件必须使用mapper作为根级节点-->
+<!--namespace属性:必须的,用于指定此XML文件对应的接口,取值为接口的全限定名-->
+<mapper namespace="cn.tedu.mybatis.mapper.AdminMapper">
+
+    <!-- 根据要执行的数据操作的类型来选择insert/delete/update/select节点-->
+    <!-- 节点的id是抽象方法的名称(仅名称)-->
+    <!-- 节点的颞部编写SQL语句-->
+    <!-- SQL语句中的参数值使用 #{}格式的占位符-->
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into ams_admin(
+            username,password,nickname,avatar,phone,email,
+            description,is_enable,last_login_ip,login_count,
+            gmt_last_login,gmt_create,gmt_modified
+        ) values (
+            #{username},#{password},#{nickname},#{avatar},#{phone},#{email},
+            #{description},#{isEnable},#{lastLoginIp},#{loginCount},
+            #{gmtLastLogin},#{gmtCreate},#{gmtModified}
+        )
+    </insert>
+
+    <delete id="deleteById">
+        delete from ams_admin where id=#{id}
+    </delete>
+
+    <update id="updatePasswordById">
+        update ams_admin set password=#{password}  where id=#{id}
+    </update>
+
+    <!-- 查询所使用的必须是select节点-->
+    <!-- select节点必须配置resultType 或 resultMap其中的一个-->
+    <!-- resultType的值就是抽象方法的返回值类型的全限定名-->
+    <select id="count" resultType="int">
+        select count(*) from ams_admin
+    </select>
+</mapper>

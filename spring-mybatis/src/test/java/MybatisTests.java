@@ -1,6 +1,9 @@
 import cn.tedu.mybatis.SpringConfig;
+import cn.tedu.mybatis.entity.Admin;
+import cn.tedu.mybatis.mapper.AdminMapper;
 import org.junit.jupiter.api.Test;
 
+import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.core.env.ConfigurableEnvironment;
 
@@ -31,9 +34,59 @@ public class MybatisTests {
     public void testConnection() throws Exception {
         AnnotationConfigApplicationContext ac
                 = new AnnotationConfigApplicationContext(SpringConfig.class);
-        DataSource dataSource = ac.getBean("dataSource", DataSource.class);
+        DataSource dataSource = (DataSource)ac.getBean("dataSource");
         Connection connection = dataSource.getConnection();
         System.out.println(connection);
+        ac.close();
+    }
+
+    @Test
+    public void testInsert(){
+        AnnotationConfigApplicationContext ac =
+                new AnnotationConfigApplicationContext(SpringConfig.class);
+        AdminMapper adminMapper = (AdminMapper) ac.getBean("adminMapper");
+        Admin admin = new Admin();
+        admin.setUsername("admin019");
+        admin.setPassword("1234333356");
+        System.out.println("执行插入前:"+admin);
+        adminMapper.insert(admin);
+        System.out.println("执行插入后:"+admin);
+        ac.close();
+    }
+
+    @Test
+    public void testDeleteById(){
+        AnnotationConfigApplicationContext ac =
+                new AnnotationConfigApplicationContext(SpringConfig.class);
+        AdminMapper adminMapper = (AdminMapper) ac.getBean("adminMapper");
+
+        Long id = 1L;
+        int row = adminMapper.deleteById(id);
+        System.out.println("受影响行数 = "+row);
+        ac.close();
+    }
+
+    @Test
+    public void testUpdatePasswordById(){
+        AnnotationConfigApplicationContext ac =
+                new AnnotationConfigApplicationContext(SpringConfig.class);
+        AdminMapper adminMapper = (AdminMapper) ac.getBean("adminMapper");
+
+        Long id = 8L;
+        String password = "jhfjh6666";
+        int row = adminMapper.updatePasswordById(id,password);
+        System.out.println("受影响行数 = "+row);
+        ac.close();
+    }
+
+    @Test
+    public void testCount(){
+        AnnotationConfigApplicationContext ac =
+                new AnnotationConfigApplicationContext(SpringConfig.class);
+        AdminMapper adminMapper = (AdminMapper) ac.getBean("adminMapper");
+
+        int count = adminMapper.count();
+        System.out.println(count);
         ac.close();
     }
 }
