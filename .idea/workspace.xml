@@ -25,14 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="220531">
-      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/vo/AdminDetailsVO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisSpringTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/test/resources/insert_data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-mybatis/src/test/resources/truncate.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/entity/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/java/cn/tedu/mybatis/mapper/AdminMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/main/resources/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-04/spring-04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-mybatis/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-mybatis/src/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,6 +140,13 @@
       <option name="MAIN_CLASS_NAME" value="MybatisTests" />
       <option name="METHOD_NAME" value="testSelectOrderById" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.boot.demo.BootDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,6 +231,7 @@
       <item itemvalue="JUnit.MybatisTests.testGetById" />
       <item itemvalue="JUnit.MybatisTests.testGetDetailsById" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
+      <item itemvalue="Spring Boot.BootDemoApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -252,6 +261,7 @@
       <workItem from="1653354900500" duration="97000" />
       <workItem from="1653355028528" duration="90046000" />
       <workItem from="1653712268287" duration="53509000" />
+      <workItem from="1654068356292" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="Vue-Cli完结">
       <created>1653375257047</created>
@@ -465,10 +475,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="662" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1653529117712" />
-    <state x="334" y="180" key="new project wizard" timestamp="1653646765549">
+    <state x="334" y="180" key="new project wizard" timestamp="1654068403804">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1653646765549" />
+    <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1654068403804" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1654045973476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

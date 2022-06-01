@@ -66,6 +66,12 @@
             <version>5.7.0</version>
             <scope>test</scope>
         </dependency>
+        <!-- 基于Spring的测试的依赖项 -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>5.3.14</version>
+        </dependency>
     </dependencies>
 
 
