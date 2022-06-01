@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
 <!-- 此文件必须使用mapper作为根级节点-->
 <!--namespace属性:必须的,用于指定此XML文件对应的接口,取值为接口的全限定名-->
 <mapper namespace="cn.tedu.mybatis.mapper.AdminMapper">
-
     <!-- 根据要执行的数据操作的类型来选择insert/delete/update/select节点-->
     <!-- 节点的id是抽象方法的名称(仅名称)-->
     <!-- 节点的颞部编写SQL语句-->
@@ -20,19 +18,121 @@
             #{gmtLastLogin},#{gmtCreate},#{gmtModified}
         )
     </insert>
-
     <delete id="deleteById">
         delete from ams_admin where id=#{id}
     </delete>
-
+    <!-- foreach节点是用于对参数值进行遍历的-->
+    <!-- collection属性:被遍历对象,如果抽象方法只有1个,
+         当参数是数组时,collection="array",
+         当参数是list时collection="list"
+         如果抽象方法的参数值有多个,则collection="参数名",例如通过@Param注解配置的名称-->
+    <!-- item属性:自定义名称   表示被遍历的对象-->
+    <!-- separator属性: 遍历过程中各值之间的分隔符号-->
+    <delete id="deleteByIds">
+        delete from ams_admin where id in(
+        <foreach collection="array" item="id" separator=",">
+            #{id}
+        </foreach>
+        )
+    </delete>
     <update id="updatePasswordById">
         update ams_admin set password=#{password}  where id=#{id}
     </update>
-
     <!-- 查询所使用的必须是select节点-->
     <!-- select节点必须配置resultType 或 resultMap其中的一个-->
     <!-- resultType的值就是抽象方法的返回值类型的全限定名-->
     <select id="count" resultType="int">
         select count(*) from ams_admin
     </select>
+    <select id="getById" resultMap="BaseResultMap">
+        select
+        <include refid="ss"/>
+        from ams_admin where id=#{id}
+    </select>
+    <select id="selectOrderById" resultMap="BaseResultMap">
+        select
+        <include refid="ss"/>
+        from ams_admin order by id;
+    </select>
+    <sql id="ss">
+        id,username,password,nickname,avatar,phone,email
+    </sql>
+    <select id="getDetailsById" resultMap="DetailsResultMap">
+        select
+            <include refid="DetailsQueryFields"/>
+        from ams_admin
+        left join ams_admin_role on ams_admin.id = ams_admin_role.admin_id
+        left join ams_role on ams_role.id = ams_admin_role.role_id
+        where ams_admin.id = #{id};
+    </select>
+    <sql id="DetailsQueryFields">
+        ams_admin.id,
+        ams_admin.username,
+        ams_admin.password,
+        ams_admin.nickname,
+        ams_admin.avatar,
+        ams_admin.phone,
+        ams_admin.email,
+        ams_admin.description,
+        ams_admin.is_enable,
+        ams_admin.last_login_ip,
+        ams_admin.login_count,
+        ams_admin.gmt_last_login,
+        ams_admin.gmt_create,
+        ams_admin.gmt_modified,
+
+        ams_role.id AS role_id,
+        ams_role.name AS role_name,
+        ams_role.description AS role_description,
+        ams_role.sort AS role_sort,
+        ams_role.gmt_create AS role_gmt_create,
+        ams_role.gmt_modified AS role_gmt_modified
+    </sql>
+    <resultMap id="DetailsResultMap" type="cn.tedu.mybatis.vo.AdminDetailsVO">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="nickname" property="nickname"/>
+        <result column="avatar" property="avatar"/>
+        <result column="phone" property="phone"/>
+        <result column="email" property="email"/>
+        <result column="description" property="description"/>
+        <result column="is_enable" property="isEnable"/>
+        <result column="last_login_ip" property="lastLoginIp"/>
+        <result column="login_count" property="loginCount"/>
+        <result column="gmt_last_login" property="gmtLastLogin"/>
+        <result column="gmt_create" property="gmtCreate"/>
+        <result column="gmt_modified" property="gmtModified"/>
+        <collection property="roles" ofType="cn.tedu.mybatis.entity.Role">
+            <id column="role_id" property="id"/>
+            <result column="role_name" property="name"/>
+            <result column="role_description" property="description"/>
+            <result column="role_sort" property="sort"/>
+            <result column="role_gmt_create" property="gmtCreate"/>
+            <result column="role_gmt_modified" property="gmtModified"/>
+        </collection>
+    </resultMap>
+
+
+    <!-- resultMap节点的作用:指导mybatis将查询到的结果封装到对象中-->
+    <!-- id:自定义名称-->
+    <!-- type:封装查询结果的类型的全限定名-->
+    <!-- column:列名    property:属性名-->
+    <!-- 在关联查询中,-->
+    <resultMap id="BaseResultMap" type="cn.tedu.mybatis.entity.Admin">
+        <result column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="password" property="password"/>
+        <result column="nickname" property="nickname"/>
+        <result column="avatar" property="avatar"/>
+        <result column="phone" property="phone"/>
+        <result column="email" property="email"/>
+        <result column="description" property="description"/>
+        <result column="is_enable" property="isEnable"/>
+        <result column="last_login_ip" property="lastLoginIp"/>
+        <result column="login_count" property="loginCount"/>
+        <result column="gmt_last_login" property="gmtLastLogin"/>
+        <result column="gmt_create" property="gmtCreate"/>
+        <result column="gmt_modified" property="gmtModified"/>
+    </resultMap>
 </mapper>

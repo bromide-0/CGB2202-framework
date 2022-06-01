@@ -1,19 +1,20 @@
-package cn.tedu.mybatis.entity;
+package cn.tedu.mybatis.vo;
 
+import cn.tedu.mybatis.entity.Role;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.Objects;
 
 /**
- * @Classname: Admin
+ * @Classname: AdminDetailsVO
  * @Author: bromide
- * @CreateTime: 2022/5/30--10:48
+ * @CreateTime: 2022/5/31--16:35
  * @Version: V1.0
  * @Description:
  */
-public class Admin implements Serializable {
-
+public class AdminDetailsVO implements Serializable {
     private Long id;
     private String username;
     private String password;
@@ -28,10 +29,11 @@ public class Admin implements Serializable {
     private LocalDateTime gmtLastLogin;
     private LocalDateTime gmtCreate;
     private LocalDateTime gmtModified;
+    private List<Role> roles;
 
     @Override
     public String toString() {
-        return "Admin{" +
+        return "AdminDetailsVO{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
@@ -46,6 +48,7 @@ public class Admin implements Serializable {
                 ", gmtLastLogin=" + gmtLastLogin +
                 ", gmtCreate=" + gmtCreate +
                 ", gmtModified=" + gmtModified +
+                ", roles=" + roles +
                 '}';
     }
 
@@ -53,26 +56,27 @@ public class Admin implements Serializable {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Admin admin = (Admin) o;
-        return Objects.equals(id, admin.id) &&
-                Objects.equals(username, admin.username) &&
-                Objects.equals(password, admin.password) &&
-                Objects.equals(nickname, admin.nickname) &&
-                Objects.equals(avatar, admin.avatar) &&
-                Objects.equals(phone, admin.phone) &&
-                Objects.equals(email, admin.email) &&
-                Objects.equals(description, admin.description) &&
-                Objects.equals(isEnable, admin.isEnable) &&
-                Objects.equals(lastLoginIp, admin.lastLoginIp) &&
-                Objects.equals(loginCount, admin.loginCount) &&
-                Objects.equals(gmtLastLogin, admin.gmtLastLogin) &&
-                Objects.equals(gmtCreate, admin.gmtCreate) &&
-                Objects.equals(gmtModified, admin.gmtModified);
+        AdminDetailsVO that = (AdminDetailsVO) o;
+        return Objects.equals(id, that.id) &&
+                Objects.equals(username, that.username) &&
+                Objects.equals(password, that.password) &&
+                Objects.equals(nickname, that.nickname) &&
+                Objects.equals(avatar, that.avatar) &&
+                Objects.equals(phone, that.phone) &&
+                Objects.equals(email, that.email) &&
+                Objects.equals(description, that.description) &&
+                Objects.equals(isEnable, that.isEnable) &&
+                Objects.equals(lastLoginIp, that.lastLoginIp) &&
+                Objects.equals(loginCount, that.loginCount) &&
+                Objects.equals(gmtLastLogin, that.gmtLastLogin) &&
+                Objects.equals(gmtCreate, that.gmtCreate) &&
+                Objects.equals(gmtModified, that.gmtModified) &&
+                Objects.equals(roles, that.roles);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, username, password, nickname, avatar, phone, email, description, isEnable, lastLoginIp, loginCount, gmtLastLogin, gmtCreate, gmtModified);
+        return Objects.hash(id, username, password, nickname, avatar, phone, email, description, isEnable, lastLoginIp, loginCount, gmtLastLogin, gmtCreate, gmtModified, roles);
     }
 
     public Long getId() {
@@ -185,5 +189,13 @@ public class Admin implements Serializable {
 
     public void setGmtModified(LocalDateTime gmtModified) {
         this.gmtModified = gmtModified;
+    }
+
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
     }
 }

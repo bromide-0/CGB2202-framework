@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="mall_ams@localhost" uuid="c7b947a2-578b-4493-b8c9-694074fcf23e">
+    <data-source source="LOCAL" name="mall_ams" uuid="f88fdc66-9a7c-4fc1-8efb-7e0bbd1fb770">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/mall_ams</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="07f32dfa-1574-4bf3-922e-ac0e2a36b3f0">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
     </data-source>
   </component>
 </project>
