@@ -1,0 +1,15 @@
+# 激活Profile配置
+spring:
+  # Profiles配置
+  profiles:
+    # 激活profiles配置
+    active: dev
+  # 连接数据库相关配置
+  datasource:
+    # 使用数据库连接池类型
+    type: com.alibaba.druid.pool.DruidDataSource
+
+# mybatis 相关配置
+mybatis:
+  # 用户配置SQL语句的XML文件的位置
+  mapper-locations: classpath:mapper/*.xml

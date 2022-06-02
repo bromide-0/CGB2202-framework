@@ -25,19 +25,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="220601">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/BootDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/BootDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/entity/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/ex/InsertException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/ex/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/ex/UsernameDuplicateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/pojo/dto/AdminAddNewDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/service/IAdminService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/util/PasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/mapper/AdminMapperTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/service/AdminServiceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/resources/insert.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/resources/truncate.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisSpringTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mybatis/src/test/java/MybatisSpringTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +90,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-demo/target" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-demo/src/main/resources/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -91,82 +101,99 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/boot-demo/target" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.tedu.boot.demo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Users\tarena\IdeaProjects\mine\D_phase\CGB2202-framework\boot-demo\src\main\resources\mapper" />
       <recent name="D:\Users\tarena\IdeaProjects\mine\D_phase\CGB2202-framework\boot-demo\src\main\resources" />
       <recent name="D:\Users\tarena\IdeaProjects\mine\D_phase\CGB2202-framework\spring-mybatis\src\test" />
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\spring-mybatis\src\main\resources\mapper" />
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\vue-project-05\src\views\admin" />
-      <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\vue-project-04\src\views" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BootDemoApplicationTests">
-    <configuration name="BootDemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AdminMapperTests">
+    <configuration name="AdminMapperTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.tedu.boot.demo.*" />
+          <option name="PATTERN" value="cn.tedu.boot.demo.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo" />
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.BootDemoApplicationTests" />
+      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.mapper.AdminMapperTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BootDemoApplicationTests.testGetConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminMapperTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.tedu.boot.demo.*" />
+          <option name="PATTERN" value="cn.tedu.boot.demo.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo" />
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.BootDemoApplicationTests" />
-      <option name="METHOD_NAME" value="testGetConnection" />
+      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.mapper.AdminMapperTests" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTests.testGetById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybatisTests" />
-      <option name="METHOD_NAME" value="testGetById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTests.testGetDetailsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-mybatis" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MybatisTests" />
-      <option name="METHOD_NAME" value="testGetDetailsById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BootDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminMapperTests.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.tedu.boot.demo.*" />
+          <option name="PATTERN" value="cn.tedu.boot.demo.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.boot.demo.BootDemoApplication" />
+      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo.mapper" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.mapper.AdminMapperTests" />
+      <option name="METHOD_NAME" value="testSelectByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.boot.demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.service.AdminServiceTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminServiceTests.testAddNewSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.boot.demo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo.service" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.service.AdminServiceTests" />
+      <option name="METHOD_NAME" value="testAddNewSuccessfully" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -252,21 +279,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MybatisTests.testGetById" />
-      <item itemvalue="JUnit.MybatisTests.testGetDetailsById" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
       <item itemvalue="Spring Boot.BootDemoApplication" />
-      <item itemvalue="JUnit.BootDemoApplicationTests" />
-      <item itemvalue="JUnit.BootDemoApplicationTests.testGetConnection" />
-      <item itemvalue="Spring Boot.BootDemoApplication (1)" />
+      <item itemvalue="JUnit.AdminMapperTests.testInsert" />
+      <item itemvalue="JUnit.AdminMapperTests" />
+      <item itemvalue="JUnit.AdminMapperTests.testSelectByUsername" />
+      <item itemvalue="JUnit.AdminServiceTests" />
+      <item itemvalue="JUnit.AdminServiceTests.testAddNewSuccessfully" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BootDemoApplicationTests" />
-        <item itemvalue="Spring Boot.BootDemoApplication (1)" />
-        <item itemvalue="JUnit.BootDemoApplicationTests.testGetConnection" />
-        <item itemvalue="JUnit.MybatisTests.testGetDetailsById" />
-        <item itemvalue="JUnit.MybatisTests.testGetById" />
+        <item itemvalue="JUnit.AdminMapperTests" />
+        <item itemvalue="JUnit.AdminServiceTests.testAddNewSuccessfully" />
+        <item itemvalue="JUnit.AdminServiceTests" />
+        <item itemvalue="JUnit.AdminMapperTests.testSelectByUsername" />
+        <item itemvalue="JUnit.AdminMapperTests.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +315,7 @@
       <workItem from="1653354900500" duration="97000" />
       <workItem from="1653355028528" duration="90046000" />
       <workItem from="1653712268287" duration="53509000" />
-      <workItem from="1654068356292" duration="8924000" />
+      <workItem from="1654068356292" duration="34358000" />
     </task>
     <task id="LOCAL-00001" summary="Vue-Cli完结">
       <created>1653375257047</created>
@@ -318,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654069122448</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="220601">
+      <created>1654132312927</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654132312927</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,26 +388,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="220601" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1653967552081">
+    <state x="586" y="198" key="#Inspections" timestamp="1654162043561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1653967552081" />
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1654162043561" />
     <state x="440" y="94" key="#Project_Structure" timestamp="1653712575849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1653712575849" />
-    <state x="337" y="361" key="#SQL_Dialects" timestamp="1654045822189">
+    <state x="337" y="361" key="#SQL_Dialects" timestamp="1654162064654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="337" y="361" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1654045822189" />
+    <state x="337" y="361" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1654162064654" />
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653983424670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653983424670" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1653986218029">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1654156391370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1653986218029" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1654156391370" />
+    <state x="512" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1654137482378">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="512" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1654137482378" />
+    <state x="739" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1654137486061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1654137486061" />
     <state x="711" y="344" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1653467795011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -382,10 +424,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1654077488066" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1654077302904">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1654161773495">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1654077302904" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1654161773495" />
     <state x="776" y="420" key="Gitee.ShareDialog" timestamp="1653277785803">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -394,22 +436,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="215" key="Gitee.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653277800832" />
-    <state width="1877" height="369" key="GridCell.Tab.0.bottom" timestamp="1654079331387">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1654163605287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654079331387" />
-    <state width="1877" height="369" key="GridCell.Tab.0.center" timestamp="1654079331387">
+    <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654163605287" />
+    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1654163605287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654079331387" />
-    <state width="1877" height="369" key="GridCell.Tab.0.left" timestamp="1654079331387">
+    <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654163605287" />
+    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1654163605287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654079331387" />
-    <state width="1877" height="369" key="GridCell.Tab.0.right" timestamp="1654079331387">
+    <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654163605287" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1654163605287">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="369" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654079331387" />
+    <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654163605287" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1654079256260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -474,22 +516,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="313" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653527655382" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1653983376314">
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1654138566877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1653983376314" />
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1654138566877" />
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1654159132309">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1654159132309" />
     <state x="616" y="221" key="RollbackChangesDialog" timestamp="1653286944601">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653286944601" />
-    <state x="432" y="236" key="SettingsEditor" timestamp="1654045818363">
+    <state x="432" y="236" key="SettingsEditor" timestamp="1654162373825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="432" y="236" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654045818363" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1654069125289">
+    <state x="432" y="236" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654162373825" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1654132314835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654069125289" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654132314835" />
     <state x="675" y="325" width="529" height="316" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1653979011612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -518,9 +564,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1654068403804" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1654045973476">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1654159621324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1654045973476" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1654159621324" />
   </component>
 </project>

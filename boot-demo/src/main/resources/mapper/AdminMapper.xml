@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 此文件必须使用mapper作为根级节点-->
+<!--namespace属性:必须的,用于指定此XML文件对应的接口,取值为接口的全限定名-->
+<mapper namespace="cn.tedu.boot.demo.mapper.AdminMapper">
+    <select id="getByUsername" resultMap="BaseResultMap">
+        select
+            <include refid="BaseQueryFields"/>
+        from
+            ams_admin 
+        where 
+            username=#{username}
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into ams_admin(
+            username,password,nickname,avatar,phone,email,
+            description,is_enable,last_login_ip,login_count,
+            gmt_last_login,gmt_create,gmt_modified
+        ) values (
+            #{username},#{password},#{nickname},#{avatar},#{phone},#{email},
+            #{description},#{isEnable},#{lastLoginIp},#{loginCount},
+            #{gmtLastLogin},#{gmtCreate},#{gmtModified}
+        )
+    </insert>
+
+    <sql id="BaseQueryFields">
+        id,
+        username,
+        password,
+        nickname,
+        avatar,
+        phone,
+        email,
+        description,
+        is_enable,
+        last_login_ip,
+        login_count,
+        gmt_last_login,
+        gmt_create,
+        gmt_modified
+    </sql>
+    
+    <resultMap id="BaseResultMap" type="cn.tedu.boot.demo.entity.Admin">
+        <id column="id" property="id"/>
+        <id column="username" property="username"/>
+        <id column="password" property="password"/>
+        <id column="nickname" property="nickname"/>
+        <id column="avatar" property="avatar"/>
+        <id column="phone" property="phone"/>
+        <id column="email" property="email"/>
+        <id column="description" property="description"/>
+        <id column="is_enable" property="isEnable"/>
+        <id column="last_login_ip" property="lastLoginIp"/>
+        <id column="login_count" property="loginCount"/>
+        <id column="gmt_last_login" property="gmtLastLogin"/>
+        <id column="gmt_create" property="gmtCreate"/>
+        <id column="gmt_modified" property="gmtModified"/>
+    </resultMap>
+
+</mapper>

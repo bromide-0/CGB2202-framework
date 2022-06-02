@@ -1,0 +1,1 @@
+insert into ams_admin(username) values('test001'),('test002'),('test003');
