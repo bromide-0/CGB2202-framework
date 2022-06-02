@@ -11,6 +11,8 @@ import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 import javax.sql.DataSource;
 import java.sql.Connection;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @SpringJUnitConfig(SpringConfig.class)
 public class MybatisSpringTests {
 
@@ -62,7 +64,7 @@ public class MybatisSpringTests {
         Long id = 1L;
         int rows = adminMapper.deleteById(id);
         System.out.println("rows = " + rows);
-        Assertions.assertEquals(1, rows);
+        assertEquals(1, rows);
     }
 
     @Test
@@ -70,7 +72,7 @@ public class MybatisSpringTests {
         Long id = -1L;
         int rows = adminMapper.deleteById(id);
         System.out.println("rows = " + rows);
-        Assertions.assertEquals(0, rows);
+        assertEquals(0, rows);
     }
 
 }
