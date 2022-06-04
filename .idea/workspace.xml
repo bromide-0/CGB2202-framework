@@ -25,29 +25,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="220601">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/controller/AdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/entity/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/ex/InsertException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/ex/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/ex/UsernameDuplicateException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/mapper/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/pojo/dto/AdminAddNewDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/service/IAdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/util/PasswordEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/mapper/AdminMapperTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/service/AdminServiceTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/resources/insert.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/resources/truncate.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/service/impl/AdminServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/service/AdminServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/service/AdminServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +100,7 @@
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\vue-project-05\src\views\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdminMapperTests">
+  <component name="RunManager" selected="JUnit.AdminServiceTests">
     <configuration name="AdminMapperTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-demo" />
       <extension name="coverage">
@@ -279,19 +260,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
-      <item itemvalue="Spring Boot.BootDemoApplication" />
       <item itemvalue="JUnit.AdminMapperTests.testInsert" />
       <item itemvalue="JUnit.AdminMapperTests" />
       <item itemvalue="JUnit.AdminMapperTests.testSelectByUsername" />
       <item itemvalue="JUnit.AdminServiceTests" />
       <item itemvalue="JUnit.AdminServiceTests.testAddNewSuccessfully" />
+      <item itemvalue="Spring Boot.BootDemoApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdminServiceTests" />
         <item itemvalue="JUnit.AdminMapperTests" />
         <item itemvalue="JUnit.AdminServiceTests.testAddNewSuccessfully" />
-        <item itemvalue="JUnit.AdminServiceTests" />
         <item itemvalue="JUnit.AdminMapperTests.testSelectByUsername" />
         <item itemvalue="JUnit.AdminMapperTests.testInsert" />
       </list>
@@ -316,6 +297,11 @@
       <workItem from="1653355028528" duration="90046000" />
       <workItem from="1653712268287" duration="53509000" />
       <workItem from="1654068356292" duration="34358000" />
+      <workItem from="1654321971226" duration="1853000" />
+      <workItem from="1654325763575" duration="1484000" />
+      <workItem from="1654329844653" duration="1462000" />
+      <workItem from="1654331561743" duration="64000" />
+      <workItem from="1654333630049" duration="1244000" />
     </task>
     <task id="LOCAL-00001" summary="Vue-Cli完结">
       <created>1653375257047</created>
@@ -436,22 +422,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="215" key="Gitee.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653277800832" />
-    <state width="1877" height="361" key="GridCell.Tab.0.bottom" timestamp="1654163605287">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom" timestamp="1654334671086">
+      <screen x="0" y="25" width="1440" height="794" />
     </state>
+    <state width="672" height="340" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1654334560673" />
     <state width="1877" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654163605287" />
-    <state width="1877" height="361" key="GridCell.Tab.0.center" timestamp="1654163605287">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="340" key="GridCell.Tab.0.bottom/0.25.1440.794@0.25.1440.794" timestamp="1654334671086" />
+    <state width="1398" height="340" key="GridCell.Tab.0.center" timestamp="1654334671085">
+      <screen x="0" y="25" width="1440" height="794" />
     </state>
+    <state width="672" height="340" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1654334560672" />
     <state width="1877" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654163605287" />
-    <state width="1877" height="361" key="GridCell.Tab.0.left" timestamp="1654163605287">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="340" key="GridCell.Tab.0.center/0.25.1440.794@0.25.1440.794" timestamp="1654334671085" />
+    <state width="1398" height="340" key="GridCell.Tab.0.left" timestamp="1654334671084">
+      <screen x="0" y="25" width="1440" height="794" />
     </state>
+    <state width="672" height="340" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1654334560671" />
     <state width="1877" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654163605287" />
-    <state width="1877" height="361" key="GridCell.Tab.0.right" timestamp="1654163605287">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1398" height="340" key="GridCell.Tab.0.left/0.25.1440.794@0.25.1440.794" timestamp="1654334671084" />
+    <state width="1398" height="340" key="GridCell.Tab.0.right" timestamp="1654334671085">
+      <screen x="0" y="25" width="1440" height="794" />
     </state>
+    <state width="672" height="340" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1654334560672" />
     <state width="1877" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654163605287" />
+    <state width="1398" height="340" key="GridCell.Tab.0.right/0.25.1440.794@0.25.1440.794" timestamp="1654334671085" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1654079256260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -516,9 +510,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1293" height="313" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1653527655382" />
-    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1654138566877">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="228" height="413" key="HiddenNamespacesPopup" timestamp="1654334347308">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="228" height="413" key="HiddenNamespacesPopup/0.0.1440.900@0.0.1440.900" timestamp="1654334347308" />
     <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1654138566877" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1654159132309">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -564,9 +559,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1654068403804" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1654159621324">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="467" y="195" width="670" height="587" key="search.everywhere.popup" timestamp="1654334097857">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="467" y="195" width="670" height="587" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1654334097857" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1654159621324" />
   </component>
 </project>

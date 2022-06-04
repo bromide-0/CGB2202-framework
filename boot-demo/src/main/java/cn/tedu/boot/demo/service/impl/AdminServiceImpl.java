@@ -23,9 +23,9 @@ import java.time.LocalDateTime;
 @Service
 public class AdminServiceImpl implements IAdminService {
     @Autowired
-    AdminMapper adminMapper;
+    private AdminMapper adminMapper;
     @Autowired
-    PasswordEncoder passwordEncoder;
+    private PasswordEncoder passwordEncoder;
 
     @Override
     public void addNew(AdminAddNewDTO adminAddNewDTO) {
