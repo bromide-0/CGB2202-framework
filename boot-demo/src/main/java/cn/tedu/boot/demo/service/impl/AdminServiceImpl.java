@@ -7,6 +7,7 @@ import cn.tedu.boot.demo.mapper.AdminMapper;
 import cn.tedu.boot.demo.pojo.dto.AdminAddNewDTO;
 import cn.tedu.boot.demo.service.IAdminService;
 import cn.tedu.boot.demo.util.PasswordEncoder;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,6 +21,7 @@ import java.time.LocalDateTime;
  * @Version: V1.0
  * @Description:
  */
+@Slf4j
 @Service
 public class AdminServiceImpl implements IAdminService {
     @Autowired
@@ -36,13 +38,18 @@ public class AdminServiceImpl implements IAdminService {
         // 判断查询结果是否为null
         if (queryResult!=null){
             //  否:表示用户名已经被暂用,则判处UsernameDuplicateException
+            log.error("此账号已占用,将抛出异常");
             throw new UsernameDuplicateException();
         }
+        log.trace("此账号未被占用,准备向表中写入此次添加的管理员信息");
+
         //  是:表示用户名未被占用,则执行插入数据  ( 无需写 )
         // 通过参数获取原密码
         String password = adminAddNewDTO.getPassword();
+        log.debug("原密码:" + password);
         // 通过加密方式,得到加密后的密码encodedPassword
-        String encodedPassword =passwordEncoder.encode(password);
+        String encodedPassword = passwordEncoder.encode(password);
+        log.debug("加密后密码:" + encodedPassword);
         // 创建当前时间对象now > LocalDateTime.now()
         LocalDateTime now = LocalDateTime.now();
         // 创建admin对象
@@ -74,6 +81,7 @@ public class AdminServiceImpl implements IAdminService {
         int row = adminMapper.insert(admin);
         // 判断以上返回的结果是否为1, 若不是,则抛出insertException
         if (row != 1){
+            log.error("插入失败,将抛出异常");
             throw new InsertException();
         }
     }

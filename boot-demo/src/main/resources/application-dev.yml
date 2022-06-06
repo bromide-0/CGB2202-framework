@@ -1,9 +1,16 @@
-# SpringÏµÁĞ¿ò¼ÜµÄÉèÖÃ
+# Springç³»åˆ—æ¡†æ¶çš„è®¾ç½®
 spring:
   datasource:
-    # Á¬½ÓÊı¾İ¿âµÄURL
+    # è¿æ¥æ•°æ®åº“çš„URL
     url: jdbc:mysql://localhost:3306/mall_ams?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
-    # µÇÂ¼Êı¾İ¿âµÄÓÃ»§Ãû
+    # ç™»å½•æ•°æ®åº“çš„ç”¨æˆ·å
     username: root
-    # µÇÂ¼Êı¾İ¿âµÄÃÜÂë
+    # ç™»å½•æ•°æ®åº“çš„å¯†ç 
     password: root
+
+# æ—¥å¿—ç›¸å…³é…ç½®
+logging:
+  # æ—¥å¿—çš„æ˜¾ç¤ºçº§åˆ«
+  level:
+    # æ ¹åŒ…çš„æ—¥å¿—æ˜¾ç¤ºçº§åˆ«
+    .cn.tedu.boot.demo: trace

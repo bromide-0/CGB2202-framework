@@ -1,15 +1,16 @@
-# ¼¤»îProfileÅäÖÃ
+# æ¿€æ´»Profileé…ç½®
 spring:
-  # ProfilesÅäÖÃ
+  # Profilesé…ç½®
   profiles:
-    # ¼¤»îprofilesÅäÖÃ
+    # æ¿€æ´»profilesé…ç½®
     active: dev
-  # Á¬½ÓÊı¾İ¿âÏà¹ØÅäÖÃ
+  # è¿æ¥æ•°æ®åº“ç›¸å…³é…ç½®
   datasource:
-    # Ê¹ÓÃÊı¾İ¿âÁ¬½Ó³ØÀàĞÍ
+    # ä½¿ç”¨æ•°æ®åº“è¿æ¥æ± ç±»å‹
     type: com.alibaba.druid.pool.DruidDataSource
 
-# mybatis Ïà¹ØÅäÖÃ
+# mybatis ç›¸å…³é…ç½®
 mybatis:
-  # ÓÃ»§ÅäÖÃSQLÓï¾äµÄXMLÎÄ¼şµÄÎ»ÖÃ
+  # ç”¨æˆ·é…ç½®SQLè¯­å¥çš„XMLæ–‡ä»¶çš„ä½ç½®
   mapper-locations: classpath:mapper/*.xml
+
