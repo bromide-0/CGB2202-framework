@@ -1,5 +1,6 @@
 package cn.tedu.boot.demo;
 
+import cn.tedu.boot.demo.util.PasswordEncoder;
 import org.junit.jupiter.api.Test;
 import org.springframework.util.DigestUtils;
 
@@ -22,5 +23,20 @@ public class DigestTests {
         String encodedPassword = DigestUtils.md5DigestAsHex((password + salt).getBytes());
         System.out.println("原密码:" + password);
         System.out.println("加密后密码: " + encodedPassword);
+    }
+
+    @Test
+    public void testPasswordEncoded(){
+        String rawPassword = "123456";
+        String encodedPassword = new PasswordEncoder().encode(rawPassword);
+        System.out.println(encodedPassword);
+    }
+
+    @Test
+    public void testMatches(){
+        String rawPassword = "123456";
+        String encodedPassword = "8f4a5455322446b48889722034685aa9e00109c188f83fe84a7101a9ac9d27d2";
+        boolean b = new PasswordEncoder().matches(rawPassword,encodedPassword);
+        System.out.println(b);
     }
 }

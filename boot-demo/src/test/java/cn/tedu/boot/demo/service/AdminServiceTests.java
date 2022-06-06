@@ -21,8 +21,8 @@ public class AdminServiceTests {
     @Autowired
     IAdminService service;
 
-    @Sql(value = "classpath:truncate.sql")
-    @Sql(value = "classpath:truncate.sql",executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
+    // @Sql(value = "classpath:truncate.sql")
+    // @Sql(value = "classpath:truncate.sql",executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
     @Test
     void testAddNewSuccessfully(){
         AdminAddNewDTO adminAddNewDTO = new AdminAddNewDTO();

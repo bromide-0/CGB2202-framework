@@ -24,18 +24,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="220601">
-      <change afterPath="$PROJECT_DIR$/.idea/CGB2202-framework.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/DigestTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="96905905-4202-469e-a3b4-382dbb7fddca" name="Default Changelist" comment="220606">
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/web/JasonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/web/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/entity/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/entity/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/pojo/dto/AdminAddNewDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/pojo/dto/AdminAddNewDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/util/PasswordEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo/util/PasswordEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/DigestTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/DigestTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/service/AdminServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-demo/src/test/java/cn/tedu/boot/demo/service/AdminServiceTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jotter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-demo/src/main/java/cn/tedu/boot/demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,7 +87,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/boot-demo/target" />
   </component>
   <component name="RecentsManager">
@@ -100,60 +98,14 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\CGB2202-framework\boot-demo\src\main\java\cn\tedu\boot\demo" />
       <recent name="D:\Users\tarena\IdeaProjects\mine\D_phase\CGB2202-framework\boot-demo\src\main\resources\mapper" />
       <recent name="D:\Users\tarena\IdeaProjects\mine\D_phase\CGB2202-framework\boot-demo\src\main\resources" />
       <recent name="D:\Users\tarena\IdeaProjects\mine\D_phase\CGB2202-framework\spring-mybatis\src\test" />
       <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\spring-mybatis\src\main\resources\mapper" />
-      <recent name="C:\Users\tarena\IdeaProjects\mine\D_phase\cgb2202-framework\vue-project-05\src\views\admin" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DigestTests">
-    <configuration name="AdminMapperTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.boot.demo.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo.mapper" />
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.mapper.AdminMapperTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminMapperTests.testSelectByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.boot.demo.mapper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo.mapper" />
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.mapper.AdminMapperTests" />
-      <option name="METHOD_NAME" value="testSelectByUsername" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdminServiceTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.tedu.boot.demo.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo.service" />
-      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.service.AdminServiceTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.BootDemoApplication (1)">
     <configuration name="AdminServiceTests.testAddNewSuccessfully" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-demo" />
       <extension name="coverage">
@@ -170,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigestTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DigestTests.testMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-demo" />
       <extension name="coverage">
         <pattern>
@@ -180,7 +132,53 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.tedu.boot.demo" />
       <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.DigestTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testMatches" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DigestTests.testPasswordEncoded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.boot.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.DigestTests" />
+      <option name="METHOD_NAME" value="testPasswordEncoded" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DigestTests.testPasswordEncoderMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.boot.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.tedu.boot.demo" />
+      <option name="MAIN_CLASS_NAME" value="cn.tedu.boot.demo.DigestTests" />
+      <option name="METHOD_NAME" value="testPasswordEncoderMatches" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootDemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="boot-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.tedu.boot.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.tedu.boot.demo.BootDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -266,21 +264,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AdminMapperTests" />
-      <item itemvalue="JUnit.AdminMapperTests.testSelectByUsername" />
-      <item itemvalue="JUnit.AdminServiceTests" />
       <item itemvalue="JUnit.AdminServiceTests.testAddNewSuccessfully" />
-      <item itemvalue="JUnit.DigestTests" />
       <item itemvalue="Spring Boot.BootDemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.37" />
+      <item itemvalue="JUnit.DigestTests.testPasswordEncoded" />
+      <item itemvalue="JUnit.DigestTests.testMatches" />
+      <item itemvalue="JUnit.DigestTests.testPasswordEncoderMatches" />
+      <item itemvalue="Spring Boot.BootDemoApplication (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DigestTests" />
-        <item itemvalue="JUnit.AdminServiceTests" />
-        <item itemvalue="JUnit.AdminMapperTests" />
+        <item itemvalue="Spring Boot.BootDemoApplication (1)" />
+        <item itemvalue="JUnit.DigestTests.testMatches" />
+        <item itemvalue="JUnit.DigestTests.testPasswordEncoded" />
+        <item itemvalue="JUnit.DigestTests.testPasswordEncoderMatches" />
         <item itemvalue="JUnit.AdminServiceTests.testAddNewSuccessfully" />
-        <item itemvalue="JUnit.AdminMapperTests.testSelectByUsername" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +303,7 @@
       <workItem from="1654068356292" duration="34358000" />
       <workItem from="1654477813926" duration="3917000" />
       <workItem from="1654482182369" duration="10573000" />
-      <workItem from="1654500598968" duration="1916000" />
+      <workItem from="1654500598968" duration="9832000" />
     </task>
     <task id="LOCAL-00001" summary="Vue-Cli完结">
       <created>1653375257047</created>
@@ -342,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654132312927</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="220606">
+      <created>1654502768223</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1654502768223</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +380,8 @@
     <MESSAGE value="." />
     <MESSAGE value="220531" />
     <MESSAGE value="220601" />
-    <option name="LAST_COMMIT_MESSAGE" value="220601" />
+    <MESSAGE value="220606" />
+    <option name="LAST_COMMIT_MESSAGE" value="220606" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="198" key="#Inspections" timestamp="1654162043561">
@@ -426,38 +432,42 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="626" y="215" key="Gitee.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653277800832" />
-    <state width="1877" height="427" key="GridCell.Tab.0.bottom" timestamp="1654501126898">
+    <state x="798" y="417" key="Github.ShareDialog" timestamp="1654503087940">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654501126898" />
-    <state width="1877" height="427" key="GridCell.Tab.0.center" timestamp="1654501126898">
+    <state x="798" y="417" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1654503087940" />
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom" timestamp="1654511925121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654501126898" />
-    <state width="1877" height="427" key="GridCell.Tab.0.left" timestamp="1654501126897">
+    <state width="1877" height="384" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654511925121" />
+    <state width="1877" height="384" key="GridCell.Tab.0.center" timestamp="1654511925121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654501126897" />
-    <state width="1877" height="427" key="GridCell.Tab.0.right" timestamp="1654501126898">
+    <state width="1877" height="384" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654511925121" />
+    <state width="1877" height="384" key="GridCell.Tab.0.left" timestamp="1654511925121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="427" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654501126898" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1654477622562">
+    <state width="1877" height="384" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654511925121" />
+    <state width="1877" height="384" key="GridCell.Tab.0.right" timestamp="1654511925121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654477622562" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1654477622562">
+    <state width="1877" height="384" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654511925121" />
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom" timestamp="1654511925121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654477622562" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1654477622562">
+    <state width="1877" height="384" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654511925121" />
+    <state width="1877" height="384" key="GridCell.Tab.1.center" timestamp="1654511925121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654477622562" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1654477622562">
+    <state width="1877" height="384" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654511925121" />
+    <state width="1877" height="384" key="GridCell.Tab.1.left" timestamp="1654511925121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654477622562" />
+    <state width="1877" height="384" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654511925121" />
+    <state width="1877" height="384" key="GridCell.Tab.1.right" timestamp="1654511925121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="384" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654511925121" />
     <state width="1293" height="384" key="GridCell.Tab.2.bottom" timestamp="1653641943243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -518,14 +528,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="221" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1653286944601" />
-    <state x="432" y="236" key="SettingsEditor" timestamp="1654483645656">
+    <state x="432" y="236" key="SettingsEditor" timestamp="1654502727398">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="432" y="236" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654483645656" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1654132314835">
+    <state x="432" y="236" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1654502727398" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1654502769778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654132314835" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1654502769778" />
     <state x="675" y="325" width="529" height="316" key="com.intellij.database.actions.ToolActions$ScriptingActionBase$MyDatabaseScriptDialog" timestamp="1653979011612">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -558,9 +568,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1654496458697" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1654484635173">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1654508207620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1654484635173" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1654508207620" />
   </component>
 </project>
